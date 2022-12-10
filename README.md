@@ -34,5 +34,6 @@ Units : position: AU (astronomic units)
 <img width="599" alt="Captura de pantalla 2022-12-10 a la(s) 04 18 09" src="https://user-images.githubusercontent.com/93294992/206843068-ee8300dc-ef7e-4fff-8f0c-0a5af64e7c24.png">
      
      
+ This an Verlet algorithm modification, to introduce a time delay in the Newtonian Gravity Forces. The main problem is find the time delay. To find the delay I use an Alan Miller repository,(https://jblevins.org/mirror/amiller/qtcrt.f90) to solve a polinomial equation. I choose a 3th order aroximation equation. 
  
-
+ 
