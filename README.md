@@ -37,3 +37,16 @@ Units : position: AU (astronomic units)
  This an Verlet algorithm modification, to introduce a time delay in the Newtonian Gravity Forces. The main problem is find the time delay. To find the delay I use an Alan Miller repository,(https://jblevins.org/mirror/amiller/qtcrt.f90) to solve a polinomial equation. I choose a 3th order aroximation equation. 
  
  
+At the end of the simulation: you have in the p2 folder:
+
+1) dat.dat : Position data 
+2) orb.dat : Relative Position data orbits, SunP - EarthP, EarthP - MoonP
+3) ener.dat : Kinetic, potential an total Enery Data.
+
+Feel free to use a graphical package like GNUPLOT to display the data.
+
+Here some results:
+
+[Sistema.pdf](https://github.com/Demonioon1/Finite-speed-of-gravity/files/10199689/Sistema.pdf)
+
+
