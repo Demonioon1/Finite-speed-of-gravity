@@ -2,7 +2,8 @@
 This is a simulation of N body system under a Newtonian Force that propagates at finite velocity. 
 To run install FPM (Fortran Pakage Manager) 
 
-You can change the propagation velocity in the (app/main.f90) is the variable (vp) vp=1 means 1 c (c = light speed)
+You can change the propagation velocity in the (app/main.f90) is the variable (vp) vp=1 means 1 c (c = light speed), you can change the mass of the bodies (m(:)) make sure that you have N number of mass vector.
+
 You can change (N number of particles, nt iteartion number, and dt iteration time step) in the archive (src/par.f90) 
 
 the second library (scr/p2.f90) is a Polinomial solver wrote by: 
