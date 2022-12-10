@@ -1,0 +1,50 @@
+./src/mpfunc.f90:409:5:
+
+  409 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunc.f90:433:11:
+
+  433 |     nexp = t1
+      |           1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunc.f90:435:11:
+
+  435 |     nexp = t1 - 1.d0
+      |           1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunc.f90:370:8:
+
+  370 |     k = 1.d0 + (d1 - 10.d0 * d2)
+      |        1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunc.f90:495:7:
+
+  495 | f(4) = an
+      |       1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1) [-Wconversion]
+./src/mpfunc.f90:512:11:
+
+  512 |     f(4) = an
+      |           1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1) [-Wconversion]
+./src/mpfunc.f90:219:9:
+
+  219 |   iexp = mpdigin (ca, lexp)
+      |         1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunc.f90:259:9:
+
+  259 |   f(4) = t1
+      |         1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1) [-Wconversion]
+./src/mpfunc.f90:280:11:
+
+  280 |     f(4) = t1
+      |           1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1) [-Wconversion]
+./src/mpfunc.f90:692:7:
+
+  692 | nexp = ixp * t1
+      |       1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]

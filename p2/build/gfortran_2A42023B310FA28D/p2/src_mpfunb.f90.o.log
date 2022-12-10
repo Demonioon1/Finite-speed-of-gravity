@@ -1,0 +1,470 @@
+./src/mpfunb.f90:501:4:
+
+  501 |         b(1) = mpnw
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/mpfunb.f90:1946:4:
+
+ 1946 |         b(1) = mpnw
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/mpfunb.f90:2139:2:
+
+ 2139 |         k = k + 1
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/mpfunb.f90:2149:6:
+
+ 2149 |           goto 100
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/mpfunb.f90:3390:3:
+
+ 3390 | 190 continue
+      |   1
+Warning: Label 190 at (1) defined but not used [-Wunused-label]
+./src/mpfunb.f90:3302:5:
+
+ 3302 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:3303:5:
+
+ 3303 | ib = sign (int (1, mpiknd), b(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:3308:5:
+
+ 3308 | nx = sqrt (4.d0 * nn) + mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:3199:5:
+
+ 3199 | m1 = cl2 * log (t1) + 1.d0 - mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2854:5:
+
+ 2854 | mx = mpuu1(1)
+      |     1
+Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2779:5:
+
+ 2779 | mx = mpuu1(1)
+      |     1
+Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:3359:7:
+
+ 3359 |   i0 = i0 + d3(i)
+      |       1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1) [-Wconversion]
+./src/mpfunb.f90:1849:5:
+
+ 1849 | ia = sign (int (1, mpiknd), d(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:3116:4:
+
+ 3116 | m = cl2 * log (d1) + 1.d0 - mprdfz
+      |    1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2940:5:
+
+ 2940 | ku = mpuu2(m)
+      |     1
+Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2746:5:
+
+ 2746 | t2 = mpmask23 (a)
+      |     1
+Warning: Procedure 'mpmask23' called with an implicit interface at (1) [-Wimplicit-interface]
+./src/mpfunb.f90:2747:4:
+
+ 2747 | if (t2 == abs (a)) then
+      |    1
+Warning: Equality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:2652:4:
+
+ 2652 | if (a == 0.d0) then
+      |    1
+Warning: Equality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:2709:7:
+
+ 2709 | b(2) = sign (aa, a)
+      |       1
+Warning: Possible change of value in conversion from REAL(16) to INTEGER(8) at (1) [-Wconversion]
+./src/mpfunb.f90:2586:4:
+
+ 2586 | if (a(2) == 0.d0)  then
+      |    1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:2592:5:
+
+ 2592 | na = abs (a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2597:4:
+
+ 2597 | n = mpnbt * a(3)
+      |    1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2602:5:
+
+ 2602 | na = log (abs (b)) / log (2.d0) + mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(16) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:103:5:
+
+  103 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:104:5:
+
+  104 | ib = sign (int (1, mpiknd), b(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:145:6:
+
+  145 | ixa = a(3)
+      |      1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:146:6:
+
+  146 | ixb = b(3)
+      |      1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2424:5:
+
+ 2424 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2450:5:
+
+ 2450 | mq = cl2 * log (t1) + 1.d0 - mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1371:4:
+
+ 1371 | if (a(2) == 0.d0)  then
+      |    1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:1377:5:
+
+ 1377 | na = abs (a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1380:4:
+
+ 1380 | n = mpnbt * a(3)
+      |    1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1385:5:
+
+ 1385 | na = log (abs (b)) / log (2.d0) + mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1100:4:
+
+ 1100 | if (a == 0.d0) then
+      |    1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:1156:7:
+
+ 1156 | b(2) = sign (aa, a)
+      |       1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1) [-Wconversion]
+./src/mpfunb.f90:1428:5:
+
+ 1428 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1429:5:
+
+ 1429 | ib = sign (int (1, mpiknd), b(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1592:5:
+
+ 1592 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1594:5:
+
+ 1594 | ib = sign (1.d0, b)
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1595:16:
+
+ 1595 | if (na == 0 .or. b == 0.d0) then
+      |                1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:1602:8:
+
+ 1602 | elseif (b == 1.d0) then
+      |        1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:1226:5:
+
+ 1226 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1631:6:
+
+ 1631 | ibb = bb
+      |      1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1) [-Wconversion]
+./src/mpfunb.f90:1635:4:
+
+ 1635 | if (bb /= ibb) then
+      |    1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:2258:5:
+
+ 2258 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2374:5:
+
+ 2374 | ia = ra(2)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1277:5:
+
+ 1277 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1279:5:
+
+ 1279 | ma = a(3)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2059:5:
+
+ 2059 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2111:5:
+
+ 2111 | mq = cl2 * log (t1) + 1.d0 - mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2121:5:
+
+ 2121 | n2 = cl2 * log (abs (t1))
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2127:7:
+
+ 2127 |   n2 = cl2 * log (t2) + 1.d0 + mprdfz
+      |       1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:892:5:
+
+  892 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:894:5:
+
+  894 | ib = sign (1.d0, b)
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:902:8:
+
+  902 | elseif (b == 0.d0) then
+      |        1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:906:8:
+
+  906 | elseif (b == 1.d0) then
+      |        1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:935:6:
+
+  935 | ibb = bb
+      |      1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1) [-Wconversion]
+./src/mpfunb.f90:939:4:
+
+  939 | if (bb /= ibb) then
+      |    1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:788:4:
+
+  788 | if (nb == 0.d0) then
+      |    1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:803:5:
+
+  803 | mq = cl2 * log (t1) + 1.d0 - mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:2161:5:
+
+ 2161 | n2 = - n1 / tn
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1979:5:
+
+ 1979 | mn = cl2 * log (t1) + 1.d0 + mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1782:5:
+
+ 1782 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1784:5:
+
+ 1784 | ma = a(3)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:1734:5:
+
+ 1734 | t2 = mpmask13 (b)
+      |     1
+Warning: Procedure 'mpmask13' called with an implicit interface at (1) [-Wimplicit-interface]
+./src/mpfunb.f90:1735:4:
+
+ 1735 | if (t2 == abs (b)) then
+      |    1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:1193:5:
+
+ 1193 | t2 = mpmask13 (a)
+      |     1
+Warning: Procedure 'mpmask13' called with an implicit interface at (1) [-Wimplicit-interface]
+./src/mpfunb.f90:1194:4:
+
+ 1194 | if (t2 == abs (a)) then
+      |    1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:1059:5:
+
+ 1059 | t2 = mpmask13 (b)
+      |     1
+Warning: Procedure 'mpmask13' called with an implicit interface at (1) [-Wimplicit-interface]
+./src/mpfunb.f90:1060:4:
+
+ 1060 | if (t2 == abs (b)) then
+      |    1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunb.f90:686:5:
+
+  686 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:687:5:
+
+  687 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:688:5:
+
+  688 | lc = c(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:628:5:
+
+  628 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:629:5:
+
+  629 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:593:5:
+
+  593 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:594:5:
+
+  594 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:371:5:
+
+  371 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:372:5:
+
+  372 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:380:5:
+
+  380 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:402:5:
+
+  402 | ia = sign (int (1, mpiknd), a(la+2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:489:5:
+
+  489 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:490:5:
+
+  490 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:440:5:
+
+  440 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:441:5:
+
+  441 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:442:5:
+
+  442 | lc = c(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:539:5:
+
+  539 | mn = cl2 * log (t1) + 1.d0 + mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:318:5:
+
+  318 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:319:5:
+
+  319 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:320:5:
+
+  320 | lc = c(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:288:5:
+
+  288 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:289:5:
+
+  289 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:290:5:
+
+  290 | lc = c(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunb.f90:254:5:
+
+  254 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]

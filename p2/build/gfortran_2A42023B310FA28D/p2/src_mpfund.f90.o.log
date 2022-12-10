@@ -1,0 +1,140 @@
+./src/mpfund.f90:645:3:
+
+  645 | 100 continue
+      |   1
+Warning: Label 100 at (1) defined but not used [-Wunused-label]
+./src/mpfund.f90:444:3:
+
+  444 | 100 continue
+      |   1
+Warning: Label 100 at (1) defined but not used [-Wunused-label]
+./src/mpfund.f90:395:3:
+
+  395 | 100 continue
+      |   1
+Warning: Label 100 at (1) defined but not used [-Wunused-label]
+./src/mpfund.f90:1212:5:
+
+ 1212 | ia = sign (int (1, mpiknd), a(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:1277:5:
+
+ 1277 | mq = cl2 * log (t2) + 2.d0 - mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:1489:5:
+
+ 1489 | mq = cl2 * (log (t1) - 1.d0) + 1.d0
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:1530:12:
+
+ 1530 | call mpmul (s2, s2, s2, mpnw1)
+      |            1
+Warning: Same actual argument associated with INTENT(IN) argument 'a' and INTENT(OUT) argument 'c' at (1)
+./src/mpfund.f90:1530:16:
+
+ 1530 | call mpmul (s2, s2, s2, mpnw1)
+      |                1
+Warning: Same actual argument associated with INTENT(IN) argument 'b' and INTENT(OUT) argument 'c' at (1)
+./src/mpfund.f90:1531:12:
+
+ 1531 | call mpdiv (s2, s4, s2, mpnw1)
+      |            1
+Warning: Same actual argument associated with INTENT(IN) argument 'a' and INTENT(OUT) argument 'c' at (1)
+./src/mpfund.f90:893:6:
+
+  893 | ndp = (mpnw - 1) * mpdpw
+      |      1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:790:5:
+
+  790 | is = s0(2)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:534:5:
+
+  534 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:535:5:
+
+  535 | lc = c(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:369:5:
+
+  369 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:370:5:
+
+  370 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:498:5:
+
+  498 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:499:5:
+
+  499 | lc = c(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:417:5:
+
+  417 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:418:5:
+
+  418 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:148:5:
+
+  148 | ix = sign (int (1, mpiknd), x(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:150:5:
+
+  150 | iy = sign (int (1, mpiknd), y(2))
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:205:5:
+
+  205 | mq = cl2 * log (t1) + 2.d0 - mprdfz
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:462:5:
+
+  462 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:463:5:
+
+  463 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:464:5:
+
+  464 | lc = c(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:300:5:
+
+  300 | la = a(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:301:5:
+
+  301 | lb = b(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfund.f90:302:5:
+
+  302 | lc = c(0)
+      |     1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]

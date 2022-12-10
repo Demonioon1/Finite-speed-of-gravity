@@ -1,0 +1,225 @@
+./src/mpfune.f90:3825:35:
+
+ 3825 | parameter (nmax = 1000, nmxa = 8525 / mpnbt + 1)
+      |                                   1
+Warning: Integer division truncated to constant '142' at (1) [-Winteger-division]
+./src/mpfune.f90:84:11:
+
+   84 | mpspacer = ra(0)
+      |           1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:76:11:
+
+   76 | mpwprecr = ra(1)
+      |           1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:4629:5:
+
+ 4629 | nn = dfrac * mpnw1
+      |     1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:2619:7:
+
+ 2619 |   nt = d2 * 2.d0 ** n2
+      |       1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:2636:7:
+
+ 2636 |   nt = d2 * 2.d0 ** n2
+      |       1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:2653:7:
+
+ 2653 |   nt = d3 * 2.d0 ** n3
+      |       1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:4411:4:
+
+ 4411 | n = dfrac * mpnw1
+      |    1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:4195:8:
+
+ 4195 |   iss = d1 * 2.d0**n1
+      |        1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:4238:4:
+
+ 4238 | n = dfrac * mpnw1
+      |    1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:4025:8:
+
+ 4025 | mpnw1 = mpnw * (1.d0 + d1 / dmax)
+      |        1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:3856:67:
+
+ 3856 | if (mpnw < 4 .or. i1 < mpnw + 6 .or. i2 < mpnw .or. d1 /= 1.d0 .or. d2 /= 1.d0 &
+      |                                                                   1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfune.f90:3856:51:
+
+ 3856 | if (mpnw < 4 .or. i1 < mpnw + 6 .or. i2 < mpnw .or. d1 /= 1.d0 .or. d2 /= 1.d0 &
+      |                                                   1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfune.f90:3152:6:
+
+ 3152 | iqq = max (dcon * mpnw1 * mpdpw - d1, 0.d0)
+      |      1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:3428:7:
+
+ 3428 |   nn = d2 * 2.d0**n2
+      |       1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:2035:6:
+
+ 2035 | iqq = dfrac * mpnw1 * mpdpw
+      |      1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfune.f90:281:29:
+
+  281 |   call mppolyadd (mpnw1, kn, q, r, q, nwds)
+      |                             1
+Warning: Same actual argument associated with INTENT(IN) argument 'a' and INTENT(OUT) argument 'c' at (1)
+./src/mpfune.f90:286:8:
+
+  286 |     if (dd1 .eq. 0.d0) then
+      |        1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfune.f90:4496:20:
+
+ 4496 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:4315:20:
+
+ 4315 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:4142:20:
+
+ 4142 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:4001:20:
+
+ 4001 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:3909:20:
+
+ 3909 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:3831:20:
+
+ 3831 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:3754:20:
+
+ 3754 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:3675:20:
+
+ 3675 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:3610:20:
+
+ 3610 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:3370:20:
+
+ 3370 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:3263:20:
+
+ 3263 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:3050:20:
+
+ 3050 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:2781:20:
+
+ 2781 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:2556:20:
+
+ 2556 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:2508:20:
+
+ 2508 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:2353:20:
+
+ 2353 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:2179:20:
+
+ 2179 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:2024:20:
+
+ 2024 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:1954:20:
+
+ 1954 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:1643:20:
+
+ 1643 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:1572:20:
+
+ 1572 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:1325:20:
+
+ 1325 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:1065:20:
+
+ 1065 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:818:20:
+
+  818 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:632:20:
+
+  632 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:451:20:
+
+  451 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]
+./src/mpfune.f90:188:20:
+
+  188 | integer (mpiknd) ix8
+      |                    1
+Warning: Unused variable 'ix8' declared at (1) [-Wunused-variable]

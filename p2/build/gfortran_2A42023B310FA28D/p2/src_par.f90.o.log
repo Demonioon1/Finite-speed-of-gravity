@@ -1,0 +1,90 @@
+./src/par.f90:3:2:
+
+    3 |         integer, parameter :: ikind=selected_real_kind(p=18)
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:4:2:
+
+    4 |         integer, parameter :: DIM=3
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:7:2:
+
+    7 |         real(kind=ikind), parameter :: CG=0.0001184462068986038 !unidades astronomicas-years
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:9:2:
+
+    9 |         integer, parameter :: N=3
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:11:2:
+
+   11 |         integer, parameter :: nt=365000
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:13:2:
+
+   13 |         real(kind=ikind), parameter :: Rc=0.03270138 !radio de los planetas
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:17:2:
+
+   17 |         real(kind=ikind) :: vp
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:20:2:
+
+   20 |         real(kind=ikind), parameter :: dt=0.0000027
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:21:2:
+
+   21 |         real(kind=ikind), dimension(3,N,2) :: r,v,a,rret,rret1 !!posicion,velocidad,aceleracion
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:22:2:
+
+   22 |         real(kind=ikind), dimension(N) :: m !!masa
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:23:2:
+
+   23 |         real(kind=ikind) :: az,min
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:26:2:
+
+   26 |         character*80 :: datin
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:27:2:
+
+   27 |         integer :: dat
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:30:2:
+
+   30 |         integer :: l,i,j,o,vpg,jj,stp,ir
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:31:2:
+
+   31 |         real(kind=ikind) :: sp,sk,st !!energia potencial, cinetica
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:32:2:
+
+   32 |         real(kind=ikind), dimension (N,3):: p,k
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:36:2:
+
+   36 |         real(kind=ikind) :: Rsqij,phij,dphij,Rsqji,phji,dphji,rtc,Rsq
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+./src/par.f90:37:2:
+
+   37 |         real(kind=ikind), dimension(DIM) :: real_vel
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]

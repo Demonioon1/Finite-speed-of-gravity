@@ -1,0 +1,5 @@
+./src/mpmodule.f90:53:4:
+
+   53 | use mpfung
+      |    1
+Warning: Type specified for intrinsic function 'abs' at (1) is ignored [-Wsurprising]

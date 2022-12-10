@@ -1,0 +1,420 @@
+./src/mpfunh2.f90:68:4:
+
+   68 | use mpfung
+      |    1
+Warning: Type specified for intrinsic function 'abs' at (1) is ignored [-Wsurprising]
+./src/mpfunh2.f90:4685:9:
+
+ 4685 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:4657:9:
+
+ 4657 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:4572:9:
+
+ 4572 |     l1 = z1%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:4577:11:
+
+ 4577 |       l2 = z2%mpc(0)
+      |           1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:4583:11:
+
+ 4583 |       l3 = z3%mpc(0)
+      |           1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:4589:11:
+
+ 4589 |       l4 = z4%mpc(0)
+      |           1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:4595:11:
+
+ 4595 |       l5 = z5%mpc(0)
+      |           1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:4530:9:
+
+ 4530 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:4493:8:
+
+ 4493 |     if (r1%mpr(2) == 0.d0) then
+      |        1
+Warning: Equality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunh2.f90:3438:8:
+
+ 3438 |     if (dt1 /= 0.d0) then
+      |        1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+./src/mpfunh2.f90:3440:11:
+
+ 3440 |       ib = dt2
+      |           1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:3344:9:
+
+ 3344 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:3312:9:
+
+ 3312 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:3270:9:
+
+ 3270 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:3255:9:
+
+ 3255 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:3240:9:
+
+ 3240 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:3209:9:
+
+ 3209 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2849:9:
+
+ 2849 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2775:9:
+
+ 2775 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2336:9:
+
+ 2336 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2317:9:
+
+ 2317 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2293:9:
+
+ 2293 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2268:9:
+
+ 2268 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2242:9:
+
+ 2242 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2215:9:
+
+ 2215 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2192:9:
+
+ 2192 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2193:9:
+
+ 2193 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2072:9:
+
+ 2072 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2053:9:
+
+ 2053 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2029:9:
+
+ 2029 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:2004:9:
+
+ 2004 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1978:9:
+
+ 1978 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1951:9:
+
+ 1951 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1928:9:
+
+ 1928 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1929:9:
+
+ 1929 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1811:9:
+
+ 1811 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1795:9:
+
+ 1795 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1777:9:
+
+ 1777 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1778:9:
+
+ 1778 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1762:9:
+
+ 1762 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1720:9:
+
+ 1720 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1694:9:
+
+ 1694 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1673:9:
+
+ 1673 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1652:9:
+
+ 1652 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1630:9:
+
+ 1630 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1607:9:
+
+ 1607 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1587:9:
+
+ 1587 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1588:9:
+
+ 1588 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1497:9:
+
+ 1497 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1480:9:
+
+ 1480 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1460:9:
+
+ 1460 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1439:9:
+
+ 1439 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1421:9:
+
+ 1421 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1404:9:
+
+ 1404 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1386:9:
+
+ 1386 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1387:9:
+
+ 1387 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1303:9:
+
+ 1303 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1274:9:
+
+ 1274 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1256:9:
+
+ 1256 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1236:9:
+
+ 1236 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1215:9:
+
+ 1215 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1193:9:
+
+ 1193 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1170:9:
+
+ 1170 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1150:9:
+
+ 1150 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1151:9:
+
+ 1151 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1052:9:
+
+ 1052 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1035:9:
+
+ 1035 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:1015:9:
+
+ 1015 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:994:9:
+
+  994 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:972:9:
+
+  972 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:949:9:
+
+  949 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:929:9:
+
+  929 |     l1 = za%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:930:9:
+
+  930 |     l2 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:817:9:
+
+  817 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:787:9:
+
+  787 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:757:9:
+
+  757 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:741:9:
+
+  741 |     l1 = zb%mpc(0)
+      |         1
+Warning: Possible change of value in conversion from INTEGER(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:702:9:
+
+  702 |     ia = da * 2.d0 ** ib
+      |         1
+Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]
+./src/mpfunh2.f90:682:20:
+
+  682 |   subroutine mp_eqrd (ra, db)
+      |                    ^
+Warning: 'mp_eqrd' defined but not used [-Wunused-function]
+./src/mpfunh2.f90:706:20:
+
+  706 |   subroutine mp_eqri (ra, ib)
+      |                    ^
+Warning: 'mp_eqri' defined but not used [-Wunused-function]
+./src/mpfunh2.f90:720:20:
+
+  720 |   subroutine mp_eqra (ra, ab)
+      |                    ^
+Warning: 'mp_eqra' defined but not used [-Wunused-function]
+./src/mpfunh2.f90:765:20:
+
+  765 |   subroutine mp_eqzd (za, db)
+      |                    ^
+Warning: 'mp_eqzd' defined but not used [-Wunused-function]
+./src/mpfunh2.f90:798:21:
+
+  798 |   subroutine mp_eqzdc (za, dcb)
+      |                     ^
+Warning: 'mp_eqzdc' defined but not used [-Wunused-function]

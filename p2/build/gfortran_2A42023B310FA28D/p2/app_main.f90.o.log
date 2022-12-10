@@ -1,0 +1,195 @@
+app/main.f90:38:2:
+
+   38 |           v=0.d0
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:39:2:
+
+   39 |           a=0.d0
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:64:2:
+
+   64 |                           read (1,*) r(:,l,1),v(:,l,1),a(:,l,1)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:65:2:
+
+   65 |              end do
+      |         1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:69:2:
+
+   69 |                                 aux=0
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:73:2:
+
+   73 |                         open(file='dat.dat',unit=7,status='unknown')
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:74:2:
+
+   74 |                         open(file='orb.dat',unit=9,status='unknown')
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:77:2:
+
+   77 |                                           do j = i+1,N
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:79:2:
+
+   79 |                                             Rsq= dot_product(Rij ,Rij)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:81:4:
+
+   81 |                                          phij  = -(m(j)*CG*m(i))/sqrt(Rsq)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:82:2:
+
+   82 |                                                  dphij = -(m(j)*CG)/((sqrt(Rsq))**3)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:84:2:
+
+   84 |                                            phji  = -(m(j)*CG*m(i))/sqrt(Rsq)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:85:2:
+
+   85 |                                            dphji = -(CG*m(i))/((sqrt(Rsq))**3)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:87:2:
+
+   87 |                                            p(i,1) = p(i,1) + 0.5*phij
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:88:2:
+
+   88 |                                            p(j,1) = p(j,1) + 0.5*phji
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:90:2:
+
+   90 |                                            a(:,i,1) = a(:,i,1) + dphij*Rij
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:91:2:
+
+   91 |                                            a(:,j,1) = a(:,j,1) - dphji*Rij
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:194:2:
+
+  194 |                                                       phij  = -(m(j)*CG*m(i))/sqrt(Rsqij)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:195:2:
+
+  195 |                                                       dphij = -(m(j)*CG)/((sqrt(Rsqij))**3)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:197:2:
+
+  197 |                                                       phji  = -(m(j)*CG*m(i))/sqrt(Rsqji)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:198:2:
+
+  198 |                                                       dphji = -(CG*m(i))/((sqrt(Rsqji))**3)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:200:2:
+
+  200 |                                                       p(i,1) = p(i,1) + 0.5*phij
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:201:2:
+
+  201 |                                                       p(j,1) = p(j,1) + 0.5*phji
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:203:2:
+
+  203 |                                                       a(:,i,2) = a(:,i,2) + dphij*Rij
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:204:2:
+
+  204 |                                                       a(:,j,2) = a(:,j,2) + dphji*Rji
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:212:2:
+
+  212 |                                             a(:,:,1)=a(:,:,2)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:224:2:
+
+  224 |                                           if(aux.eq.1)then
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:227:2:
+
+  227 |                                                   do nn=1,N
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:228:2:
+
+  228 |                                                           write(7,*) r(1,nn,1),r(2,nn,1),r(3,nn,1)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:229:2:
+
+  229 |                                                   end do
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:230:2:
+
+  230 |                                                   write(7,*) ' '
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:231:2:
+
+  231 |                                                   write(7,*) ' '
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:239:2:
+
+  239 |                                                 write(77,*) step, eka,epa,eta,Rsq,min
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:243:3:
+
+  243 |                         close (7)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:244:3:
+
+  244 |                   close (77)
+      |         1       
+Warning: Nonconforming tab character at (1) [-Wtabs]
+app/main.f90:126:24:
+
+  126 |                     if (aimag(root(l)).ne.0) then
+      |                        1
+Warning: Inequality comparison for REAL(16) at (1) [-Wcompare-reals]
+app/main.f90:137:24:
+
+  137 |                     if (real(root(l)).ne.0) then
+      |                        1
+Warning: Inequality comparison for REAL(16) at (1) [-Wcompare-reals]
+app/main.f90:166:24:
+
+  166 |                     if (aimag(root(l)).ne.0) then
+      |                        1
+Warning: Inequality comparison for REAL(16) at (1) [-Wcompare-reals]
+app/main.f90:177:24:
+
+  177 |                     if (real(root(l)).ne.0) then
+      |                        1
+Warning: Inequality comparison for REAL(16) at (1) [-Wcompare-reals]

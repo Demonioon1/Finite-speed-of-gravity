@@ -1,0 +1,55 @@
+./src/p2.f90:382:6:
+
+  382 |   IF (a(1) == zero) GO TO 40
+      |      1
+Warning: Equality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/p2.f90:390:6:
+
+  390 |   IF (a(2) /= zero) GO TO 10
+      |      1
+Warning: Inequality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/p2.f90:474:6:
+
+  474 |   IF (a(1) == zero) GO TO 100
+      |      1
+Warning: Equality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/p2.f90:606:6:
+
+  606 |   IF (AIMAG(z(1)) == zero) RETURN
+      |      1
+Warning: Equality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/p2.f90:628:10:
+
+  628 |   120 IF (p /= zero) GO TO 130
+      |          1
+Warning: Inequality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/p2.f90:690:6:
+
+  690 |   IF (a(1) == zero) GO TO 100
+      |      1
+Warning: Equality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/p2.f90:715:6:
+
+  715 |   IF (AIMAG(z(2)) /= zero) GO TO 60
+      |      1
+Warning: Inequality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/p2.f90:753:6:
+
+  753 |   IF (t /= zero) temp(1) = e/t
+      |      1
+Warning: Inequality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/p2.f90:783:11:
+
+  783 |   ELSE IF (t == zero) THEN
+      |           1
+Warning: Equality comparison for REAL(16) at (1) [-Wcompare-reals]
+./src/p2.f90:95:12:
+
+   95 |       RETURN
+      |            ^
+Warning: 'fn_val' may be used uninitialized [-Wmaybe-uninitialized]
+./src/p2.f90:16:36:
+
+   16 |   FUNCTION ipmpar (i) RESULT(fn_val)
+      |                                    ^
+note: 'fn_val' was declared here

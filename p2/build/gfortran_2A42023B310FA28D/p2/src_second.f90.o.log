@@ -1,0 +1,5 @@
+././src/second.f90:17:0:
+
+   17 | function second ()
+      | 
+Warning: 'second' declared at (1) is also the name of an intrinsic.  It can only be called via an explicit interface or if declared EXTERNAL. [-Wintrinsic-shadow]
