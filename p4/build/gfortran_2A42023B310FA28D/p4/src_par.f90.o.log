@@ -1,0 +1,20 @@
+./src/par.f90:7:34:
+
+    7 | real(kind=ikind), parameter :: CG=0.0001184462068986038q0 !unidades astronomicas-years
+      |                                  1
+Warning: Change of value in conversion from ‘REAL(16)’ to ‘REAL(10)’ at (1) [-Wconversion]
+./src/par.f90:7:56:
+
+    7 | real(kind=ikind), parameter :: CG=0.0001184462068986038q0 !unidades astronomicas-years
+      |                                                        1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+./src/par.f90:22:34:
+
+   22 | real(kind=ikind), parameter :: dt=0.000000273972602739726Q0 !itearation step
+      |                                  1
+Warning: Change of value in conversion from ‘REAL(16)’ to ‘REAL(10)’ at (1) [-Wconversion]
+./src/par.f90:22:58:
+
+   22 | real(kind=ikind), parameter :: dt=0.000000273972602739726Q0 !itearation step
+      |                                                          1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]

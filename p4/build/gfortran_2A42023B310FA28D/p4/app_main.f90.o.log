@@ -1,0 +1,160 @@
+app/main.f90:38:6:
+
+   38 | r=0.0q0
+      |      1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:39:6:
+
+   39 | v=0.0q0
+      |      1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:40:6:
+
+   40 | a=0.0q0
+      |      1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:41:9:
+
+   41 | root=0.0q0
+      |         1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:47:13:
+
+   47 |     m(1)=1.0q0
+      |             1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:48:16:
+
+   48 |     m(2)=0.0123q0
+      |                1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:123:33:
+
+  123 |            p(i,1) = p(i,1) + 0.5q0*phij
+      |                                 1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:124:33:
+
+  124 |            p(j,1) = p(j,1) + 0.5q0*phji
+      |                                 1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:229:30:
+
+  229 |         p(i,1) = p(i,1) + 0.5q0*phij
+      |                              1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:230:30:
+
+  230 |         p(j,1) = p(j,1) + 0.5q0*phji
+      |                              1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:265:36:
+
+  265 |           v(:,:,1) = v(:,:,1) + 0.5q0*dt*a(:,:,1)
+      |                                    1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:368:38:
+
+  368 |                 p(i,1) = p(i,1) + 0.5q0*phij
+      |                                      1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:369:38:
+
+  369 |                 p(j,1) = p(j,1) + 0.5q0*phji
+      |                                      1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:383:28:
+
+  383 |               eka = eka+0.5q0*m(i)*dot_product(real_vel,real_vel)
+      |                            1
+Warning: Extension: exponent-letter ‘q’ in real-literal-constant at (1) [-Wreal-q-constant]
+app/main.f90:48:9:
+
+   48 |     m(2)=0.0123q0
+      |         1
+Warning: Change of value in conversion from ‘REAL(16)’ to ‘REAL(10)’ at (1) [-Wconversion]
+app/main.f90:123:20:
+
+  123 |            p(i,1) = p(i,1) + 0.5q0*phij
+      |                    1
+Warning: Possible change of value in conversion from REAL(16) to REAL(10) at (1) [-Wconversion]
+app/main.f90:124:20:
+
+  124 |            p(j,1) = p(j,1) + 0.5q0*phji
+      |                    1
+Warning: Possible change of value in conversion from REAL(16) to REAL(10) at (1) [-Wconversion]
+app/main.f90:154:14:
+
+  154 |           if (aimag(root(l)).ne.0) then
+      |              1
+Warning: Inequality comparison for REAL(10) at (1) [-Wcompare-reals]
+app/main.f90:165:14:
+
+  165 |           if (real(root(l)).ne.0) then
+      |              1
+Warning: Inequality comparison for REAL(10) at (1) [-Wcompare-reals]
+app/main.f90:194:14:
+
+  194 |           if (aimag(root(l)).ne.0.0) then
+      |              1
+Warning: Inequality comparison for REAL(10) at (1) [-Wcompare-reals]
+app/main.f90:205:13:
+
+  205 |          if (real(root(l)).ne.0) then
+      |             1
+Warning: Inequality comparison for REAL(10) at (1) [-Wcompare-reals]
+app/main.f90:229:17:
+
+  229 |         p(i,1) = p(i,1) + 0.5q0*phij
+      |                 1
+Warning: Possible change of value in conversion from REAL(16) to REAL(10) at (1) [-Wconversion]
+app/main.f90:230:17:
+
+  230 |         p(j,1) = p(j,1) + 0.5q0*phji
+      |                 1
+Warning: Possible change of value in conversion from REAL(16) to REAL(10) at (1) [-Wconversion]
+app/main.f90:265:21:
+
+  265 |           v(:,:,1) = v(:,:,1) + 0.5q0*dt*a(:,:,1)
+      |                     1
+Warning: Possible change of value in conversion from REAL(16) to REAL(10) at (1) [-Wconversion]
+app/main.f90:293:22:
+
+  293 |                   if (aimag(root(l)).ne.0) then
+      |                      1
+Warning: Inequality comparison for REAL(10) at (1) [-Wcompare-reals]
+app/main.f90:304:22:
+
+  304 |                   if (real(root(l)).ne.0) then
+      |                      1
+Warning: Inequality comparison for REAL(10) at (1) [-Wcompare-reals]
+app/main.f90:333:22:
+
+  333 |                   if (aimag(root(l)).ne.0.0) then
+      |                      1
+Warning: Inequality comparison for REAL(10) at (1) [-Wcompare-reals]
+app/main.f90:344:21:
+
+  344 |                  if (real(root(l)).ne.0) then
+      |                     1
+Warning: Inequality comparison for REAL(10) at (1) [-Wcompare-reals]
+app/main.f90:368:25:
+
+  368 |                 p(i,1) = p(i,1) + 0.5q0*phij
+      |                         1
+Warning: Possible change of value in conversion from REAL(16) to REAL(10) at (1) [-Wconversion]
+app/main.f90:369:25:
+
+  369 |                 p(j,1) = p(j,1) + 0.5q0*phji
+      |                         1
+Warning: Possible change of value in conversion from REAL(16) to REAL(10) at (1) [-Wconversion]
+app/main.f90:377:23:
+
+  377 |             v(:,:,1) = v(:,:,1) + 0.5q0*dt*(a(:,:,2))
+      |                       1
+Warning: Possible change of value in conversion from REAL(16) to REAL(10) at (1) [-Wconversion]
+app/main.f90:383:20:
+
+  383 |               eka = eka+0.5q0*m(i)*dot_product(real_vel,real_vel)
+      |                    1
+Warning: Possible change of value in conversion from REAL(16) to REAL(10) at (1) [-Wconversion]

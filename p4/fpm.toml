@@ -1,0 +1,16 @@
+name = "p4"
+version = "0.1.0"
+license = "license"
+author = "Demonioon1"
+maintainer = "93294992+Demonioon1@users.noreply.github.com"
+copyright = "Copyright 2023, Demonioon1"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
+
+
+[library]
+source-dir = "src"
